@@ -180,7 +180,11 @@ class Connection extends EventEmitter {
     return this.jid;
   }
 
-  _status(status, ...args) {
+_status(status, ...args) {
+    // Do nothing if the status doesn't change
+    if (this.status === status) {
+      return;
+    }
     this.status = status;
     this.emit("status", status, ...args);
     this.emit(status, ...args);
@@ -281,7 +285,9 @@ class Connection extends EventEmitter {
    */
   async stop() {
     const el = await this._end();
-    if (this.status !== "offline") this._status("offline", el);
+    if (this.status !== "offline") {
+      this._status("offline", el);
+    }
     return el;
   }
 

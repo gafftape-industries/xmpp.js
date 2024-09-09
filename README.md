@@ -45,25 +45,11 @@ Do you need help with working with xmpp.js? Please reach out to our community by
 
 ## Built with xmpp.js
 
-- [WorkAdventure](https://workadventu.re/)
-- [Simplo](https://simplo.app/?lang=en)
-- [Crypho](https://www.crypho.com/)
-- [MeshCentral](https://meshcentral.com/)
-- [openHAB](https://www.openhab.org/)
-- [HearMe.App](https://www.hearme.app/)
-- [Wobbly](https://wobbly.app/)
-- [Alcatel-Lucent Rainbow](https://www.openrainbow.com/)
-- [Telldus](https://telldus.com/)
-- [ConnectyCube](https://connectycube.com/)
-- [Sockethub](http://sockethub.org/)
-- [matrix-bitfrost](https://github.com/matrix-org/matrix-bifrost)
-- [WordPress Telegram Bot](https://github.com/Automattic/wp-telegram-bot)
-- [Logitech Harmony Hub library](https://github.com/AirBorne04/harmonyhub)
-- [gx-twilio: Bridge between Twilio SMS and XMPP](https://github.com/pesvut/sgx-twilio)
+-- Nothing seems to be here --
 
 <small> Feel free to send a PR to add your project or organization to this list.</small>
 
-## credits
+## original credits by [sonnyp](https://github.com/sonnyp)
 
 xmpp.js is a rewrite of [node-xmpp](https://github.com/xmppjs/xmpp.js/tree/node-xmpp) and learned a lot from it.
 
